@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bharadwaj.scorebox">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ScoreBox">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Chess_News"/>
+        <activity android:name=".Chess_Score"/>
+        <activity android:name=".Golf_News"/>
+        <activity android:name=".Golf_Score"/>
+        <activity android:name=".Hockey_News"/>
+        <activity android:name=".Hockey_Score"/>
+        <activity android:name=".Cricket_Story_Output"/>
+        <activity android:name=".Output"/>
+        <activity android:name=".Tennis_Score"/>
+        <activity android:name=".Tennis_News"/>
+        <activity android:name=".Football_News"/>
+        <activity android:name=".Football_Score"/>
+    </application>
+
+</manifest>
